@@ -5,7 +5,7 @@ from .options import ArgumentParser
 from .utils import parse_range, title, _check_version, removeprefix
 from . import __version__
 from urllib.parse import urlparse
-from pkg_resources import parse_version
+from packaging.version import parse as parse_version
 import threading
 import queue
 import logging
